@@ -1,0 +1,36 @@
+@import url(../../assets/puebloPaleta.jpg);
+
+.home{
+    background-image: url();
+}
+.input-pokemon {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.btn-search {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-search:hover {
+    background-color: #ff9900;
+}
+
+.pagination{
+    display: flex;
+  flex-direction: column; /* Puedes cambiar a 'row' si deseas una disposición horizontal */
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente */
+  height: 100vh;
+}

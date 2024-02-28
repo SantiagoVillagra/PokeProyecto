@@ -1,0 +1,25 @@
+.fondo {
+    background-image: url('../../assets/peleapokemon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pokebutton {
+    padding: 10px 20px; 
+    border: red;
+    cursor: pointer;
+   border-radius: 10px;
+}
+
+
+/* 
+# selecciono por id 
+. selecciono por clase 
+p por elemento  */
